@@ -11,6 +11,10 @@
 		282DB0122670E27400ED1A15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0112670E27400ED1A15 /* ContentView.swift */; };
 		282DB0142670E27500ED1A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282DB0132670E27500ED1A15 /* Assets.xcassets */; };
 		282DB0172670E27500ED1A15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282DB0162670E27500ED1A15 /* Preview Assets.xcassets */; };
+		282DB01F2671509900ED1A15 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB01E2671509900ED1A15 /* TimeCounter.swift */; };
+		282DB0212671D43600ED1A15 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0202671D43600ED1A15 /* RegisterView.swift */; };
+		282DB0232671DDE500ED1A15 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0222671DDE500ED1A15 /* UserManager.swift */; };
+		282DB0252671E8F400ED1A15 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0242671E8F400ED1A15 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		282DB0132670E27500ED1A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		282DB0162670E27500ED1A15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		282DB0182670E27500ED1A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282DB01E2671509900ED1A15 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		282DB0202671D43600ED1A15 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		282DB0222671DDE500ED1A15 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		282DB0242671E8F400ED1A15 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				282DB00F2670E27400ED1A15 /* MyStateAndDataFlowApp.swift */,
+				282DB0242671E8F400ED1A15 /* StarterView.swift */,
+				282DB0222671DDE500ED1A15 /* UserManager.swift */,
+				282DB0202671D43600ED1A15 /* RegisterView.swift */,
 				282DB0112670E27400ED1A15 /* ContentView.swift */,
+				282DB01E2671509900ED1A15 /* TimeCounter.swift */,
 				282DB0132670E27500ED1A15 /* Assets.xcassets */,
 				282DB0182670E27500ED1A15 /* Info.plist */,
 				282DB0152670E27500ED1A15 /* Preview Content */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282DB01F2671509900ED1A15 /* TimeCounter.swift in Sources */,
+				282DB0212671D43600ED1A15 /* RegisterView.swift in Sources */,
+				282DB0252671E8F400ED1A15 /* StarterView.swift in Sources */,
 				282DB0122670E27400ED1A15 /* ContentView.swift in Sources */,
+				282DB0232671DDE500ED1A15 /* UserManager.swift in Sources */,
 				282DB0102670E27400ED1A15 /* MyStateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

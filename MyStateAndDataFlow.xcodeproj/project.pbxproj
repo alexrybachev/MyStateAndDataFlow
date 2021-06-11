@@ -15,6 +15,9 @@
 		282DB0212671D43600ED1A15 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0202671D43600ED1A15 /* RegisterView.swift */; };
 		282DB0232671DDE500ED1A15 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0222671DDE500ED1A15 /* UserManager.swift */; };
 		282DB0252671E8F400ED1A15 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0242671E8F400ED1A15 /* StarterView.swift */; };
+		282DB0272671F92600ED1A15 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB0262671F92600ED1A15 /* DataManager.swift */; };
+		282DB02926737F5100ED1A15 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB02826737F5100ED1A15 /* ButtonView.swift */; };
+		282DB02B26737FAC00ED1A15 /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB02A26737FAC00ED1A15 /* ButtonAppearanceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		282DB0202671D43600ED1A15 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		282DB0222671DDE500ED1A15 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		282DB0242671E8F400ED1A15 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		282DB0262671F92600ED1A15 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		282DB02826737F5100ED1A15 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		282DB02A26737FAC00ED1A15 /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +67,9 @@
 			isa = PBXGroup;
 			children = (
 				282DB00F2670E27400ED1A15 /* MyStateAndDataFlowApp.swift */,
-				282DB0242671E8F400ED1A15 /* StarterView.swift */,
-				282DB0222671DDE500ED1A15 /* UserManager.swift */,
-				282DB0202671D43600ED1A15 /* RegisterView.swift */,
-				282DB0112670E27400ED1A15 /* ContentView.swift */,
-				282DB01E2671509900ED1A15 /* TimeCounter.swift */,
+				282DB02D2673884C00ED1A15 /* Views */,
+				282DB02C2673812400ED1A15 /* Button */,
+				282DB02E2673886B00ED1A15 /* Managers */,
 				282DB0132670E27500ED1A15 /* Assets.xcassets */,
 				282DB0182670E27500ED1A15 /* Info.plist */,
 				282DB0152670E27500ED1A15 /* Preview Content */,
@@ -79,6 +83,35 @@
 				282DB0162670E27500ED1A15 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		282DB02C2673812400ED1A15 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				282DB02826737F5100ED1A15 /* ButtonView.swift */,
+				282DB02A26737FAC00ED1A15 /* ButtonAppearanceModifier.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		282DB02D2673884C00ED1A15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				282DB0242671E8F400ED1A15 /* StarterView.swift */,
+				282DB0202671D43600ED1A15 /* RegisterView.swift */,
+				282DB0112670E27400ED1A15 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		282DB02E2673886B00ED1A15 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				282DB0222671DDE500ED1A15 /* UserManager.swift */,
+				282DB01E2671509900ED1A15 /* TimeCounter.swift */,
+				282DB0262671F92600ED1A15 /* DataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282DB02B26737FAC00ED1A15 /* ButtonAppearanceModifier.swift in Sources */,
 				282DB01F2671509900ED1A15 /* TimeCounter.swift in Sources */,
 				282DB0212671D43600ED1A15 /* RegisterView.swift in Sources */,
+				282DB02926737F5100ED1A15 /* ButtonView.swift in Sources */,
 				282DB0252671E8F400ED1A15 /* StarterView.swift in Sources */,
+				282DB0272671F92600ED1A15 /* DataManager.swift in Sources */,
 				282DB0122670E27400ED1A15 /* ContentView.swift in Sources */,
 				282DB0232671DDE500ED1A15 /* UserManager.swift in Sources */,
 				282DB0102670E27400ED1A15 /* MyStateAndDataFlowApp.swift in Sources */,
